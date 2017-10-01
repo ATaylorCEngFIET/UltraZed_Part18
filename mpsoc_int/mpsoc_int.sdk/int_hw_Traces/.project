@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>int_hw_Traces</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.linuxtools.tmf.project.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Traces/Run_Jun-16_19-32/APM_Trace_Jun-16_19-32/APM_Trace_Jun-16_19-32_</name>
+			<type>1</type>
+			<location>C:/hdl_projects/mpsoc_int/mpsoc_int.sdk/int_hw_Traces/Traces/.bookmarks</location>
+		</link>
+		<link>
+			<name>Traces/Run_Jun-16_19-39/APM_Trace_Jun-16_19-39/APM_Trace_Jun-16_19-39_</name>
+			<type>1</type>
+			<location>C:/hdl_projects/mpsoc_int/mpsoc_int.sdk/int_hw_Traces/Traces/.bookmarks</location>
+		</link>
+		<link>
+			<name>Traces/Run_Jun-16_19-42/APM_Trace_Jun-16_19-42/APM_Trace_Jun-16_19-42_</name>
+			<type>1</type>
+			<location>C:/hdl_projects/mpsoc_int/mpsoc_int.sdk/int_hw_Traces/Traces/.bookmarks</location>
+		</link>
+		<link>
+			<name>Traces/Run_Jun-16_19-46/APM_Trace_Jun-16_19-46/APM_Trace_Jun-16_19-46_</name>
+			<type>1</type>
+			<location>C:/hdl_projects/mpsoc_int/mpsoc_int.sdk/int_hw_Traces/Traces/.bookmarks</location>
+		</link>
+		<link>
+			<name>Traces/Run_Jun-16_20-56/APM_Trace_Jun-16_20-56/APM_Trace_Jun-16_20-56_</name>
+			<type>1</type>
+			<location>C:/hdl_projects/mpsoc_int/mpsoc_int.sdk/int_hw_Traces/Traces/.bookmarks</location>
+		</link>
+		<link>
+			<name>Traces/Run_Jun-16_20-58/APM_Trace_Jun-16_20-58/APM_Trace_Jun-16_20-58_</name>
+			<type>1</type>
+			<location>C:/hdl_projects/mpsoc_int/mpsoc_int.sdk/int_hw_Traces/Traces/.bookmarks</location>
+		</link>
+	</linkedResources>
+</projectDescription>

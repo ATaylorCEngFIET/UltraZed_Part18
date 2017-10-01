@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Sat Sep 30 12:40:08 2017
+# Process ID: 19820
+# Current directory: C:/hdl_projects/mpsoc_int/mpsoc_int.runs/design_1_v_tpg_0_0_synth_1
+# Command line: vivado.exe -log design_1_v_tpg_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_v_tpg_0_0.tcl
+# Log file: C:/hdl_projects/mpsoc_int/mpsoc_int.runs/design_1_v_tpg_0_0_synth_1/design_1_v_tpg_0_0.vds
+# Journal file: C:/hdl_projects/mpsoc_int/mpsoc_int.runs/design_1_v_tpg_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+176 Beta devices matching pattern found, 24 enabled.
+16 Beta devices matching pattern found, 0 enabled.
+Loaded SDSoC Platform Tcl Library
+source design_1_v_tpg_0_0.tcl -notrace
+compile_c: Time (s): cpu = 00:00:00 ; elapsed = 00:06:02 . Memory (MB): peak = 506.547 ; gain = 0.285
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_v_tpg_0_0, cache-ID = 0d4583ce8103e163.

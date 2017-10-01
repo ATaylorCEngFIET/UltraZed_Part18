@@ -1,0 +1,20 @@
+12:34:38 INFO  : Registering command handlers for SDK TCF services
+12:34:39 INFO  : Launching XSCT server: xsct.bat -interactive C:\hdl_projects\mpsoc_int\mpsoc_int.sdk\temp_xsdb_launch_script.tcl
+12:34:39 INFO  : Validating SDSoC License
+12:34:39 INFO  : License for SDSoC is unavailable
+12:34:39 INFO  : Validating SDAccel License
+12:34:39 INFO  : License for SDAccel is unavailable
+12:42:20 INFO  : Registering command handlers for SDK TCF services
+12:42:20 INFO  : Launching XSCT server: xsct.bat -interactive C:\hdl_projects\mpsoc_int\mpsoc_int.sdk\temp_xsdb_launch_script.tcl
+18:50:04 INFO  : Registering command handlers for SDK TCF services
+18:50:04 INFO  : Launching XSCT server: xsct.bat -interactive C:\hdl_projects\mpsoc_int\mpsoc_int.sdk\temp_xsdb_launch_script.tcl
+18:50:05 INFO  : Validating SDSoC License
+18:50:05 INFO  : License for SDSoC is unavailable
+18:50:05 INFO  : Validating SDAccel License
+18:50:05 INFO  : License for SDAccel is unavailable
+19:40:25 INFO  : Registering command handlers for SDK TCF services
+19:40:25 INFO  : Launching XSCT server: xsct.bat -interactive C:\hdl_projects\mpsoc_int\mpsoc_int.sdk\temp_xsdb_launch_script.tcl
+19:40:25 INFO  : Validating SDSoC License
+19:40:25 INFO  : License for SDSoC is unavailable
+19:40:25 INFO  : Validating SDAccel License
+19:40:25 INFO  : License for SDAccel is unavailable

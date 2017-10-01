@@ -1,0 +1,9 @@
+#
+#Fri Jun 16 19:12:11 BST 2017
+apms=axi_perf_mon_0,axi_perf_mon_1
+nodes=axi_perf_mon_0_SLOT_0,axi_perf_mon_1_SLOT_0
+counters=axi_perf_mon_0-SAMPLE_REGISTER\:4,axi_perf_mon_1-SAMPLE_REGISTER\:4,axi_perf_mon_0_SLOT_0-WRITE_BYTE\:4,axi_perf_mon_0_SLOT_0-WRITE_TRANS\:4,axi_perf_mon_0_SLOT_0-WRITE_LATENCY\:4,axi_perf_mon_0_SLOT_0-READ_BYTE\:4,axi_perf_mon_0_SLOT_0-READ_TRANS\:4,axi_perf_mon_0_SLOT_0-READ_LATENCY\:4,axi_perf_mon_0_SLOT_0-WRITE_LATENCY_MAX\:4,axi_perf_mon_0_SLOT_0-READ_LATENCY_MAX\:4,axi_perf_mon_1_SLOT_0-WRITE_BYTE\:4,axi_perf_mon_1_SLOT_0-WRITE_TRANS\:4,axi_perf_mon_1_SLOT_0-WRITE_LATENCY\:4,axi_perf_mon_1_SLOT_0-READ_BYTE\:4,axi_perf_mon_1_SLOT_0-READ_TRANS\:4,axi_perf_mon_1_SLOT_0-READ_LATENCY\:4,axi_perf_mon_1_SLOT_0-WRITE_LATENCY_MAX\:4,axi_perf_mon_1_SLOT_0-READ_LATENCY_MAX\:4
+type=APM
+timestamp=1497636731199
+apm_counters_sizes=36,36
+node_frequencies=1.0E8,1.0E8

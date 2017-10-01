@@ -1,0 +1,6 @@
+17:10:43 **** Incremental Build of configuration Debug for project tpg_vdma ****
+make all 
+make: Nothing to be done for `all'.
+
+17:10:43 Build Finished (took 164ms)
+

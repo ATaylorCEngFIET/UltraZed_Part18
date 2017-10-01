@@ -1,0 +1,52 @@
+
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+
+#include "xv_tpg.h"
+#include "xvidc.h"
+static XV_tpg tpg;
+
+int main()
+{
+
+	XV_tpg_Config *tpg_config;
+	int status;
+	u32 height,width,status;
+
+    init_platform();
+
+    print("Hello World\n\r");
+
+    tpg_config = XV_tpg_LookupConfig(XPAR_XV_TPG_0_DEVICE_ID);
+    XV_tpg_CfgInitialize(&tpg, tpg_config, tpg_config->BaseAddress);
+
+
+
+
+	status = XV_tpg_IsReady(&tpg);
+	printf("Status %u \n\r", (unsigned int) status);
+	status = XV_tpg_IsIdle(&tpg);
+	printf("Status %u \n\r", (unsigned int) status);
+	XV_tpg_Set_height(&tpg, (u32)600);
+	XV_tpg_Set_width(&tpg, (u32)800);
+	height = XV_tpg_Get_height(&tpg);
+	width = XV_tpg_Get_width(&tpg);
+	XV_tpg_Set_colorFormat(&tpg,XVIDC_CSF_RGB);
+	XV_tpg_Set_maskId(&tpg, 0x0);
+	XV_tpg_Set_motionSpeed(&tpg, 0x4);
+	printf("info from tpg %u %u \n\r", (unsigned int)height, (unsigned int)width);
+	XV_tpg_Set_bckgndId(&tpg, XTPG_BKGND_COLOR_BARS);
+	status = XV_tpg_Get_bckgndId(&tpg);
+	printf("Status %x \n\r", (unsigned int) status);
+	XV_tpg_EnableAutoRestart(&tpg);
+	XV_tpg_Start(&tpg);
+	status = XV_tpg_IsIdle(&tpg);
+	printf("Status %u \n\r", (unsigned int) status);
+
+	while(1);
+
+    cleanup_platform();
+    return 0;
+}

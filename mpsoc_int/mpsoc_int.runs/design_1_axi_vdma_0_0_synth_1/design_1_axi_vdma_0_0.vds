@@ -1,0 +1,276 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Sat Sep 30 14:14:44 2017
+# Process ID: 21596
+# Current directory: C:/hdl_projects/mpsoc_int/mpsoc_int.runs/design_1_axi_vdma_0_0_synth_1
+# Command line: vivado.exe -log design_1_axi_vdma_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_vdma_0_0.tcl
+# Log file: C:/hdl_projects/mpsoc_int/mpsoc_int.runs/design_1_axi_vdma_0_0_synth_1/design_1_axi_vdma_0_0.vds
+# Journal file: C:/hdl_projects/mpsoc_int/mpsoc_int.runs/design_1_axi_vdma_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+176 Beta devices matching pattern found, 24 enabled.
+16 Beta devices matching pattern found, 0 enabled.
+Loaded SDSoC Platform Tcl Library
+source design_1_axi_vdma_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 583.855 ; gain = 374.117
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_vdma_0_0' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:69480]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_rst_module' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:16457]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reset' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:14862]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reset' (1#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:14862]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_rst_module' (2#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:16457]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_if' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:39644]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_lite_if' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:16952]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_lite_if' (3#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:16952]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_if' (4#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:39644]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_intrpt' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:40370]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_intrpt' (5#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:40370]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_skid_buf' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:41227]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_skid_buf' (6#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:41227]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_s2mm_axis_dwidth_converter' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:68664]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_v6_2_9_axis_dwidth_converter_v1_0_axis_dwidth_converter' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:1938]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_v6_2_9_axis_dwidth_converter_v1_0_axisc_upsizer' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:1191]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_v6_2_9_axis_dwidth_converter_v1_0_axisc_upsizer' (7#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:1191]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_v6_2_9_axis_dwidth_converter_v1_0_axisc_downsizer' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:1558]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_v6_2_9_axis_dwidth_converter_v1_0_axisc_downsizer' (8#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:1558]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_v6_2_9_axis_register_slice_v1_0_axis_register_slice' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:979]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_v6_2_9_axis_infrastructure_v1_0_util_axis2vector' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:63]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_v6_2_9_axis_infrastructure_v1_0_util_axis2vector' (9#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:63]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_v6_2_9_axis_register_slice_v1_0_axisc_register_slice' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:391]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_v6_2_9_axis_register_slice_v1_0_axisc_register_slice' (10#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:391]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_v6_2_9_axis_infrastructure_v1_0_util_vector2axis' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:228]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_v6_2_9_axis_infrastructure_v1_0_util_vector2axis' (11#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:228]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_v6_2_9_axis_register_slice_v1_0_axis_register_slice' (12#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:979]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_v6_2_9_axis_register_slice_v1_0_axis_register_slice__parameterized0' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:979]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_v6_2_9_axis_infrastructure_v1_0_util_axis2vector__parameterized0' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:63]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_v6_2_9_axis_infrastructure_v1_0_util_axis2vector__parameterized0' (12#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:63]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_v6_2_9_axis_register_slice_v1_0_axisc_register_slice__parameterized0' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:391]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_v6_2_9_axis_register_slice_v1_0_axisc_register_slice__parameterized0' (12#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:391]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_v6_2_9_axis_infrastructure_v1_0_util_vector2axis__parameterized0' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:228]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_v6_2_9_axis_infrastructure_v1_0_util_vector2axis__parameterized0' (12#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:228]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_v6_2_9_axis_register_slice_v1_0_axis_register_slice__parameterized0' (12#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:979]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_v6_2_9_axis_dwidth_converter_v1_0_axis_dwidth_converter' (13#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.v:1938]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_s2mm_axis_dwidth_converter' (14#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:68664]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_module' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:38829]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_register' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:18712]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_register' (15#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:18712]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_regdirect' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:20526]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_regdirect' (16#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:20526]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_reg_mux' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:29591]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_mux' (17#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:29591]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_reg_module' (18#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:38829]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_mngr' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:63815]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sm' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:61558]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sm' (19#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:61558]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_cmdsts_if' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:62697]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_cmdsts_if' (20#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:62697]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sts_mngr' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:63204]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sts_mngr' (21#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:63204]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vidreg_module' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:55739]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vregister' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:53625]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vregister' (22#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:53625]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vaddrreg_mux' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:55216]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vaddrreg_mux' (23#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:55216]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vidreg_module' (24#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:55739]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_genlock_mngr' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:58282]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_greycoder' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:57995]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_greycoder' (25#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:57995]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_genlock_mngr' (26#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:58282]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_mngr' (27#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:63815]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_fsync_gen' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:52754]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_fsync_gen' (28#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:52754]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_vid_cdc' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:13249]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_vid_cdc' (29#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:13249]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sof_gen' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:40980]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sof_gen' (30#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:40980]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_s2mm_linebuf' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:48936]
+INFO: [Synth 8-638] synthesizing module 'axi_vdma_sfifo' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:41782]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_sfifo' (58#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:41782]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma_s2mm_linebuf' (59#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:48936]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:48516]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mm2s_omit_wrap' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:46304]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mm2s_omit_wrap' (60#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:46304]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_full_wrap' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:43113]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_reset' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_reset' (61#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_cmd_status' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (62#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (63#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (64#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f' (65#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo' (66#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized0' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized0' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized0' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized0' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized0' (66#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized0' (66#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized0' (66#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized0' (66#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_cmd_status' (67#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:2693]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_status_cntl' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:17697]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized1' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized1' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized1' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized0' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized0' (67#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized1' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized1' (67#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized1' (67#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized1' (67#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized1' (67#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized2' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized2' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized2' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized1' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized1' (67#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized2' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized2' (67#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized2' (67#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized2' (67#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized2' (67#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_status_cntl' (68#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:17697]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_ibttcc' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:25723]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ibttcc' (69#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:25723]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_realign' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:40129]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized3' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized3' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized3' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized3' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized3' (69#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized3' (69#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized3' (69#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized3' (69#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_dre' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:33121]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_dre_mux2_1_x_n' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:29942]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_dre_mux2_1_x_n' (70#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:29942]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_dre_mux4_1_x_n' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:30089]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_dre_mux4_1_x_n' (71#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:30089]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_dre' (72#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:33121]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_s2mm_scatter' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:38236]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_mssai_skid_buf' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:37286]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_ms_strb_set' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:35726]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_ms_strb_set' (73#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:35726]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_mssai_skid_buf' (74#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:37286]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_strb_gen2' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_strb_gen2' (75#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:4337]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_slice' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:37975]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_slice' (76#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:37975]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized4' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized4' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized4' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f__parameterized2' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f__parameterized2' (76#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized4' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized4' (76#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized4' (76#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized4' (76#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized4' (76#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_scatter' (77#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:38236]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_realign' (78#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:40129]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_indet_btt' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:28422]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_stbs_set' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:23402]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_stbs_set' (79#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:23402]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/61a7/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (84#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/61a7/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord' (85#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_sfifo_autord__parameterized0' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized0' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/61a7/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized0' (85#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/61a7/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_sfifo_autord__parameterized0' (85#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1294]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid_buf' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:19492]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid_buf' (86#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:19492]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_indet_btt' (87#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:28422]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_addr_cntl' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized5' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized5' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized5' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized5' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized5' (87#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized5' (87#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized5' (87#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized5' (87#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_addr_cntl' (88#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:9995]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wrdata_cntl' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:15669]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_fifo__parameterized6' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_f__parameterized6' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized6' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized6' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized6' (88#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized6' (88#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_f__parameterized6' (88#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:1000]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_fifo__parameterized6' (88#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:1881]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wrdata_cntl' (89#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:15669]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_skid2mm_buf' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:18990]
+INFO: [Synth 8-638] synthesizing module 'axi_datamover_wr_demux' [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:14112]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_wr_demux' (90#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:14112]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_skid2mm_buf' (91#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:18990]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover_s2mm_full_wrap' (92#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:43113]
+INFO: [Synth 8-256] done synthesizing module 'axi_datamover' (93#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/1cd0/hdl/axi_datamover_v5_1_vh_rfs.vhd:48516]
+INFO: [Synth 8-256] done synthesizing module 'axi_vdma' (94#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ipshared/3e37/hdl/axi_vdma_v6_2_rfs.vhd:69480]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_vdma_0_0' (95#1) [c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/synth/design_1_axi_vdma_0_0.vhd:108]
+Finished RTL Elaboration : Time (s): cpu = 00:06:36 ; elapsed = 00:06:46 . Memory (MB): peak = 868.590 ; gain = 658.852
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:06:37 ; elapsed = 00:06:47 . Memory (MB): peak = 868.590 ; gain = 658.852
+INFO: [Device 21-403] Loading part xczu3eg-sfva625-1-i-es1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.151 . Memory (MB): peak = 1321.219 ; gain = 2.070
+Finished Constraint Validation : Time (s): cpu = 00:06:54 ; elapsed = 00:07:05 . Memory (MB): peak = 1321.219 ; gain = 1111.480
+Finished Loading Part and Timing Information : Time (s): cpu = 00:06:54 ; elapsed = 00:07:05 . Memory (MB): peak = 1321.219 ; gain = 1111.480
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:06:54 ; elapsed = 00:07:05 . Memory (MB): peak = 1321.219 ; gain = 1111.480
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:07:01 ; elapsed = 00:07:12 . Memory (MB): peak = 1321.219 ; gain = 1111.480
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:07:11 ; elapsed = 00:07:24 . Memory (MB): peak = 1321.219 ; gain = 1111.480
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+------------+
+|Module Name                  | RTL Object                                                                                                                                                                                    | Inference      | Size (Depth x Width) | Primitives | 
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+------------+
+|axi_datamover_s2mm_full_wrap | GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/FAMILY_SUPPORTED.I_SYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 8 x 11               |            | 
++-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:07:34 ; elapsed = 00:07:46 . Memory (MB): peak = 1849.594 ; gain = 1639.855
+Finished Timing Optimization : Time (s): cpu = 00:07:37 ; elapsed = 00:07:50 . Memory (MB): peak = 1912.414 ; gain = 1702.676
+Finished Technology Mapping : Time (s): cpu = 00:07:40 ; elapsed = 00:07:53 . Memory (MB): peak = 1918.863 ; gain = 1709.125
+Finished IO Insertion : Time (s): cpu = 00:07:40 ; elapsed = 00:07:53 . Memory (MB): peak = 1918.863 ; gain = 1709.125
+Finished Renaming Generated Instances : Time (s): cpu = 00:07:40 ; elapsed = 00:07:53 . Memory (MB): peak = 1918.863 ; gain = 1709.125
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:41 ; elapsed = 00:07:54 . Memory (MB): peak = 1918.863 ; gain = 1709.125
+Finished Renaming Generated Ports : Time (s): cpu = 00:07:41 ; elapsed = 00:07:54 . Memory (MB): peak = 1918.863 ; gain = 1709.125
+Finished Handling Custom Attributes : Time (s): cpu = 00:07:41 ; elapsed = 00:07:54 . Memory (MB): peak = 1918.863 ; gain = 1709.125
+Finished Renaming Generated Nets : Time (s): cpu = 00:07:41 ; elapsed = 00:07:54 . Memory (MB): peak = 1918.863 ; gain = 1709.125
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY8     |    21|
+|2     |LUT1       |   402|
+|3     |LUT2       |   250|
+|4     |LUT3       |   301|
+|5     |LUT4       |   275|
+|6     |LUT5       |   309|
+|7     |LUT6       |   364|
+|8     |MUXCY      |    44|
+|9     |MUXF7      |     1|
+|10    |RAM32M16   |     1|
+|11    |RAMB18E2   |     1|
+|12    |RAMB36E2   |     1|
+|13    |RAMB36E2_1 |     2|
+|14    |SRL16E     |   187|
+|15    |FDRE       |  2058|
+|16    |FDSE       |    68|
++------+-----------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:07:41 ; elapsed = 00:07:54 . Memory (MB): peak = 1918.863 ; gain = 1709.125
+synth_design: Time (s): cpu = 00:07:31 ; elapsed = 00:07:42 . Memory (MB): peak = 1923.180 ; gain = 1420.480

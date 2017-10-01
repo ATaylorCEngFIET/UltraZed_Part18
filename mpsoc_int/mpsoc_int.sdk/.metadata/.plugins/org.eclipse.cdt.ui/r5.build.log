@@ -1,0 +1,26 @@
+19:49:03 **** Build of configuration Debug for project r5 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM R5 gcc compiler'
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-r5 -I../../r5_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM R5 gcc compiler'
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-r5 -I../../r5_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: r5.elf'
+'Invoking: ARM R5 gcc linker'
+armr5-none-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../r5_bsp/psu_cortexr5_0/lib -o "r5.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: r5.elf'
+' '
+'Invoking: ARM R5 Print Size'
+armr5-none-eabi-size r5.elf  |tee "r5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  48568	   2452	  22728	  73748	  12014	r5.elf
+'Finished building: r5.elf.size'
+' '
+
+19:49:04 Build Finished (took 1s.160ms)
+

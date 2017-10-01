@@ -1,0 +1,25 @@
+
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+
+#include "xv_tpg.h"
+
+static XV_tpg tpg;
+
+int main()
+{
+
+	XV_tpg_Config *tpg_config;
+
+    init_platform();
+
+    print("Hello World\n\r");
+
+    tpg_config = XV_tpg_LookupConfig(XPAR_XV_TPG_0_DEVICE_ID);
+    XV_tpg_CfgInitialize(&tpg, tpg_config, tpg_config->BaseAddress);
+
+    cleanup_platform();
+    return 0;
+}

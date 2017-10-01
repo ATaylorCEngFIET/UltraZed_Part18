@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Sat Sep 30 15:13:59 2017
+# Process ID: 14012
+# Current directory: C:/hdl_projects/mpsoc_int/mpsoc_int.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: C:/hdl_projects/mpsoc_int/mpsoc_int.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/hdl_projects/mpsoc_int/mpsoc_int.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

@@ -1,0 +1,7 @@
+15:38:32 **** Clean-only build of configuration Debug for project power_apu ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  power_apu.elf.size  power_apu.elf
+' '
+
+15:38:32 Build Finished (took 210ms)
+

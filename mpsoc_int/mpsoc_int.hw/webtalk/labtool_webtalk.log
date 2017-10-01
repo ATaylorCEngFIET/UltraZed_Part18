@@ -1,0 +1,13 @@
+
+
+****** Webtalk v2016.3_sdx (64-bit)
+  **** SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+  **** IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+invalid command name "enable_beta_device*"
+    while executing
+"enable_beta_device*"
+    (file "C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Sun Oct 01 09:55:42 2017...

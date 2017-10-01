@@ -1,0 +1,85 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3_sdx (win64) Build 1721784 Tue Nov 29 22:12:44 MST 2016
+| Date         : Sat Sep 30 15:32:09 2017
+| Host         : DESKTOP-HQKVQ13 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -rpx design_1_wrapper_methodology_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xczu3eg-sfva625-1-i-es1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 7
++-----------+----------+-------------------------------------------------+------------+
+| Rule      | Severity | Description                                     | Violations |
++-----------+----------+-------------------------------------------------+------------+
+| PDRC-190  | Warning  | Suboptimally placed synchronized register chain | 1          |
+| TIMING-9  | Warning  | Unknown CDC Logic                               | 1          |
+| TIMING-35 | Warning  | No common node in paths with the same clock     | 1          |
+| XDCB-1    | Warning  | Runtime intensive exceptions                    | 4          |
++-----------+----------+-------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-190#1 Warning
+Suboptimally placed synchronized register chain  
+The FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[2] in site SLICE_X43Y35 is part of a synchronized register chain that is suboptimally placed as the load FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+TIMING-9#1 Warning
+Unknown CDC Logic  
+One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage
+Related violations: <none>
+
+TIMING-35#1 Warning
+No common node in paths with the same clock  
+The clock dbg_hub/inst/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/INTERNAL_TCK has paths without common node
+Related violations: <none>
+
+XDCB-1#1 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-to = expands to 3433 design objects. 
+set_multicycle_path -hold -end -from [get_pins -hierarchical -filter {NAME =~*Lat_Addr_*downto2_CDC_reg*/C}] -to [get_pins -hierarchical -filter {NAME...
+c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ip/design_1_axi_perf_mon_0_0/design_1_axi_perf_mon_0_0.xdc (Line: 65)
+Related violations: <none>
+
+XDCB-1#2 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-to = expands to 3433 design objects. 
+set_multicycle_path -hold -end -from [get_pins -hierarchical -filter {NAME =~*Lat_Addr_*downto2_CDC_reg*/C}] -to [get_pins -hierarchical -filter {NAME...
+c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ip/design_1_axi_perf_mon_0_1/design_1_axi_perf_mon_0_1.xdc (Line: 65)
+Related violations: <none>
+
+XDCB-1#3 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-to = expands to 3433 design objects. 
+set_multicycle_path -setup -from [get_pins -hierarchical -filter {NAME =~*Lat_Addr_*downto2_CDC_reg*/C}] -to [get_pins -hierarchical -filter {NAME =~*...
+c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ip/design_1_axi_perf_mon_0_0/design_1_axi_perf_mon_0_0.xdc (Line: 64)
+Related violations: <none>
+
+XDCB-1#4 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-to = expands to 3433 design objects. 
+set_multicycle_path -setup -from [get_pins -hierarchical -filter {NAME =~*Lat_Addr_*downto2_CDC_reg*/C}] -to [get_pins -hierarchical -filter {NAME =~*...
+c:/hdl_projects/mpsoc_int/mpsoc_int.srcs/sources_1/bd/design_1/ip/design_1_axi_perf_mon_0_1/design_1_axi_perf_mon_0_1.xdc (Line: 64)
+Related violations: <none>
+
+

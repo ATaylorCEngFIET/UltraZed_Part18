@@ -1,0 +1,47 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace inst axi_perf_mon_1 -pg 1 -lvl 2 -y 70 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 3 -y 290 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 5 -y 400 -defaultsOSRD
+preplace inst v_tpg_0 -pg 1 -lvl 2 -y 260 -defaultsOSRD
+preplace inst axi_mem_intercon_1 -pg 1 -lvl 4 -y 350 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -y 190 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 8 -y 600 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 3 -y 660 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 3 -y 570 -defaultsOSRD
+preplace inst rst_ps8_0_100M -pg 1 -lvl 1 -y 690 -defaultsOSRD
+preplace inst ila_1 -pg 1 -lvl 4 -y 540 -defaultsOSRD
+preplace inst ila_2 -pg 1 -lvl 5 -y 200 -defaultsOSRD
+preplace inst axi_mem_intercon1 -pg 1 -lvl 1 -y 340 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 6 -y 500 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 7 -y 600 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 2 -y 540 -defaultsOSRD
+preplace inst axi_perf_mon_0 -pg 1 -lvl 7 -y 410 -defaultsOSRD
+preplace netloc axi_mem_intercon_M01_AXI 1 6 1 2600
+preplace netloc v_tpg_0_m_axis_video 1 2 1 1040
+preplace netloc axi_perf_mon_1_interrupt 1 2 2 N 70 1410J
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 7 20 160 660 360 1050 20 1400 20 1690 20 2310 20 2620
+preplace netloc axi_mem_intercon_1_M00_AXI 1 4 1 1700
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 7 1 N
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 0 6 0 130 700 330 1020J 130 NJ 130 NJ 130 2290
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 5 2 2320 350 2610J
+preplace netloc axi_mem_intercon1_M02_AXI 1 1 2 NJ 350 1030
+preplace netloc axi_mem_intercon_M00_AXI 1 6 1 2610
+preplace netloc rst_ps8_0_100M_peripheral_aresetn 1 1 6 710 730 1060 730 NJ 730 NJ 730 2320 730 2630
+preplace netloc axi_mem_intercon1_M03_AXI 1 1 1 690
+preplace netloc axi_perf_mon_0_interrupt 1 3 5 1420 670 NJ 670 NJ 670 NJ 670 2870
+preplace netloc xlconcat_0_dout 1 4 1 1680
+preplace netloc rst_ps8_0_100M_interconnect_aresetn 1 0 6 10 150 680 390 NJ 390 1390 40 NJ 40 2300
+preplace netloc axi_mem_intercon1_M01_AXI 1 1 1 650
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 6 30 600 700J 710 NJ 710 NJ 710 NJ 710 2290
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 3 1 1380
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 2 1 1020
+preplace netloc axi_mem_intercon1_M00_AXI 1 1 1 670
+levelinfo -pg 1 -20 490 870 1220 1550 2000 2470 2750 2970 3070 -top -60 -bot 780
+",
+}
+{
+   da_axi4_cnt: "9",
+   da_zynq_ultra_ps_e_cnt: "1",
+}

@@ -1,0 +1,31 @@
+20:05:49 **** Build of configuration Debug for project int_bsp_xilpm_selfsuspend_example_1 ****
+make all 
+'Building file: ../src/gic_setup.c'
+'Invoking: ARM A53 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gic_setup.o" -I../../int_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/gic_setup.d" -MT"src/gic_setup.o" -o "src/gic_setup.o" "../src/gic_setup.c"
+'Finished building: ../src/gic_setup.c'
+' '
+'Building file: ../src/timer.c'
+'Invoking: ARM A53 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer.o" -I../../int_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/timer.d" -MT"src/timer.o" -o "src/timer.o" "../src/timer.c"
+'Finished building: ../src/timer.c'
+' '
+'Building file: ../src/xilpm_selfsuspend_example.c'
+'Invoking: ARM A53 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xilpm_selfsuspend_example.o" -I../../int_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xilpm_selfsuspend_example.d" -MT"src/xilpm_selfsuspend_example.o" -o "src/xilpm_selfsuspend_example.o" "../src/xilpm_selfsuspend_example.c"
+'Finished building: ../src/xilpm_selfsuspend_example.c'
+' '
+'Building target: int_bsp_xilpm_selfsuspend_example_1.elf'
+'Invoking: ARM A53 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../int_bsp/psu_cortexa53_0/lib -o "int_bsp_xilpm_selfsuspend_example_1.elf"  ./src/gic_setup.o ./src/timer.o ./src/xilpm_selfsuspend_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group
+'Finished building target: int_bsp_xilpm_selfsuspend_example_1.elf'
+' '
+'Invoking: ARM A53 Print Size'
+aarch64-none-elf-size int_bsp_xilpm_selfsuspend_example_1.elf  |tee "int_bsp_xilpm_selfsuspend_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  48704	   5832	  20880	  75416	  12698	int_bsp_xilpm_selfsuspend_example_1.elf
+'Finished building: int_bsp_xilpm_selfsuspend_example_1.elf.size'
+' '
+
+20:05:51 Build Finished (took 1s.836ms)
+

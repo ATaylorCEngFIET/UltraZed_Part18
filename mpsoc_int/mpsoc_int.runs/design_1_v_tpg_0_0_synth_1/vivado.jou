@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Sat Sep 30 12:40:08 2017
+# Process ID: 19820
+# Current directory: C:/hdl_projects/mpsoc_int/mpsoc_int.runs/design_1_v_tpg_0_0_synth_1
+# Command line: vivado.exe -log design_1_v_tpg_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_v_tpg_0_0.tcl
+# Log file: C:/hdl_projects/mpsoc_int/mpsoc_int.runs/design_1_v_tpg_0_0_synth_1/design_1_v_tpg_0_0.vds
+# Journal file: C:/hdl_projects/mpsoc_int/mpsoc_int.runs/design_1_v_tpg_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_v_tpg_0_0.tcl -notrace

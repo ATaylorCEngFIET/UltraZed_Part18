@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Sun Oct 01 09:49:19 2017
+# Process ID: 18784
+# Current directory: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13500
+# Log file: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+176 Beta devices matching pattern found, 24 enabled.
+16 Beta devices matching pattern found, 0 enabled.
+Loaded SDSoC Platform Tcl Library
+start_gui
+open_project C:/hdl_projects/mpsoc_int/mpsoc_int.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/SDx/2016.3/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:22 . Memory (MB): peak = 1194.859 ; gain = 509.754
+archive_project C:/hdl_projects/mpsoc_int.xpr.zip -temp_dir C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18784-DESKTOP-HQKVQ13 -force -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18784-DESKTOP-HQKVQ13' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/SDx/2016.3/Vivado/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18784-DESKTOP-HQKVQ13/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_v_tpg_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_ila_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_vdma_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_ila_0_1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_ila_1_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'design_1_v_tpg_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_ila_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_vdma_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_ila_0_1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_ila_1_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_vdma_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_vdma_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_ila_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_ila_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_ila_0_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_ila_0_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_ila_1_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_ila_1_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_v_tpg_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_v_tpg_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

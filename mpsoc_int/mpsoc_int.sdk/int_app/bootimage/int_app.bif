@@ -1,0 +1,8 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[fsbl_config]a53_x64
+	[bootloader]C:\hdl_projects\mpsoc_int\mpsoc_int.sdk\fsbl\Debug\fsbl.elf
+	[destination_device = pl]C:\hdl_projects\mpsoc_int\mpsoc_int.sdk\int_hw\design_1_wrapper.bit
+	[destination_cpu = a53-0]C:\hdl_projects\mpsoc_int\mpsoc_int.sdk\int_app\Debug\int_app.elf
+}

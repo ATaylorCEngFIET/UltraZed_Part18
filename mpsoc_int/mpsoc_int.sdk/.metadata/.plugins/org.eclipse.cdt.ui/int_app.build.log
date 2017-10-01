@@ -1,0 +1,15 @@
+20:07:06 **** Incremental Build of configuration Debug for project int_app ****
+make all 
+'Building target: int_app.elf'
+'Invoking: ARM A53 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../int_bsp/psu_cortexa53_0/lib -o "int_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+C:\hdl_projects\mpsoc_int\mpsoc_int.sdk\int_app\Debug/../src/helloworld.c:81: undefined reference to `XPm_InitXilpm'
+C:\hdl_projects\mpsoc_int\mpsoc_int.sdk\int_app\Debug/../src/helloworld.c:83: undefined reference to `XPm_GetBootStatus'
+C:\hdl_projects\mpsoc_int\mpsoc_int.sdk\int_app\Debug/../src/helloworld.c:86: undefined reference to `XPm_GetNodeStatus'
+C:\hdl_projects\mpsoc_int\mpsoc_int.sdk\int_app\Debug/../src/helloworld.c:88: undefined reference to `XPm_GetNodeStatus'
+collect2.exe: error: ld returned 1 exit status
+make: *** [int_app.elf] Error 1
+
+20:07:06 Build Finished (took 283ms)
+
